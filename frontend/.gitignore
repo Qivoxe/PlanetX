@@ -43,3 +43,7 @@ next-env.d.ts
 .venv/
 __pycache__/
 outputs/
+
+# Raw datasets
+backend/data/raw/data1.gz
+backend/data/cache/

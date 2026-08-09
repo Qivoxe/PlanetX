@@ -35,9 +35,8 @@ ENV/
 backend/outputs/*
 !backend/outputs/.gitkeep
 
-# Raw datasets
 backend/data/raw/
-backend/data/cache/
+backend/data/*.gz
 
 # Model checkpoints (if generated)
 backend/models/checkpoints/
