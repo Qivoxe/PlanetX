@@ -44,6 +44,3 @@ next-env.d.ts
 __pycache__/
 outputs/
 
-# Raw datasets
-backend/data/raw/data1.gz
-backend/data/cache/
