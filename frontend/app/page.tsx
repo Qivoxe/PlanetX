@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Cursor from "@/components/Cursor";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SpaceBackground from "@/components/SpaceBackground";
@@ -8,7 +7,6 @@ import SpaceBackground from "@/components/SpaceBackground";
 export default function Home() {
   return (
     <div className="dot-bg" style={{ minHeight: "100vh", background: "#030712" }}>
-      <Cursor />
       <SpaceBackground />
       <Navbar />
 

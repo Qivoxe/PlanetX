@@ -6,7 +6,6 @@ body {
   background: #030712;
   color: #e2e8f0;
   overflow-x: hidden;
-  cursor: none;
   font-family: 'Inter', sans-serif;
 }
 
@@ -14,31 +13,6 @@ body {
 ::-webkit-scrollbar-track { background: #030712; }
 ::-webkit-scrollbar-thumb { background: #f97316; border-radius: 2px; }
 ::selection { background: #f97316; color: #000; }
-
-.cursor {
-  position: fixed;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #f97316;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  transition: all 0.12s ease;
-  mix-blend-mode: normal;
-}
-.cursor-trail {
-  position: fixed;
-  width: 5px;
-  height: 5px;
-  background: #f97316;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9998;
-  transform: translate(-50%, -50%);
-  opacity: 0.5;
-  transition: all 0.06s ease;
-}
 
 .dot-bg {
   background-image: radial-gradient(#1e293b 1px, transparent 1px);
